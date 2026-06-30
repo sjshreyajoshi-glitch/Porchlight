@@ -160,9 +160,6 @@ Two seeded users demonstrate that escalation policy is genuinely configurable, n
 
 Both users hit the same risk score in the demo, and the Escalation Agent routes each one differently based solely on their individual policy.
 
-## Assumptions Made
-
-*(Update this section with any defaults Antigravity applied during generation, e.g., mock sentiment scoring thresholds, default notification channel, etc.)*
 
 ## License
 
