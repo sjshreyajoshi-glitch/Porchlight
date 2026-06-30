@@ -1,0 +1,35 @@
+[
+  {
+    "id": "u1",
+    "name": "Evelyn Carter",
+    "age": 82,
+    "streak": 5,
+    "missedCheckins": 0,
+    "riskStatus": "green",
+    "lastCheckinTime": "2026-06-30T06:41:24.936Z",
+    "lastCheckinText": "I'm doing well, had some nice tea and read my book this morning.",
+    "sentimentScore": 0.85
+  },
+  {
+    "id": "u2",
+    "name": "Arthur Pendelton",
+    "age": 79,
+    "streak": 8,
+    "missedCheckins": 0,
+    "riskStatus": "green",
+    "lastCheckinTime": "2026-06-30T08:41:24.937Z",
+    "lastCheckinText": "Hello there, my knee is a bit sore but otherwise I am fine.",
+    "sentimentScore": 0.65
+  },
+  {
+    "id": "u3",
+    "name": "Beatrice Vance",
+    "age": 85,
+    "streak": 13,
+    "missedCheckins": 0,
+    "riskStatus": "yellow",
+    "lastCheckinTime": "2026-06-30T10:42:00.420Z",
+    "lastCheckinText": "I feel very sad and lonely today",
+    "sentimentScore": 0.5
+  }
+]

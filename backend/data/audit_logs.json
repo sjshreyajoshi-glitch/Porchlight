@@ -1,0 +1,79 @@
+[
+  {
+    "id": "l_1782816120421_h2k8d",
+    "timestamp": "2026-06-30T10:42:00.421Z",
+    "userId": "u3",
+    "userName": "Beatrice Vance",
+    "agent": "Care Coordinator Agent",
+    "action": "COORDINATION_COMPLETE",
+    "status": "success",
+    "details": "Completed check-in orchestration. User risk level: YELLOW.",
+    "escalationTriggered": true
+  },
+  {
+    "id": "l_1782816120421_bzxv5",
+    "timestamp": "2026-06-30T10:42:00.421Z",
+    "userId": "u3",
+    "userName": "Beatrice Vance",
+    "agent": "Escalation Agent",
+    "action": "STATUS_EVALUATION",
+    "status": "success",
+    "details": "Evaluated User. Sentiment Score: 0.50, Missed Check-ins: 0. Calculated Distress: 0.50. Resulting Status: YELLOW.",
+    "escalationTriggered": true
+  },
+  {
+    "id": "l_1782816120421_fmk5l",
+    "timestamp": "2026-06-30T10:42:00.421Z",
+    "userId": "u3",
+    "userName": "Beatrice Vance",
+    "agent": "Escalation Agent",
+    "action": "SEND_SMS",
+    "status": "success",
+    "details": "Sent SMS notification to Dave Miller (Volunteer Coordinator) (+15550199). Msg: \"[PORCHLIGHT ALERT] Alert level: YELLOW. Evelyn/Arthur/Beatri...\"",
+    "escalationTriggered": true
+  },
+  {
+    "id": "l_1782816120420_wfmzm",
+    "timestamp": "2026-06-30T10:42:00.420Z",
+    "userId": "u3",
+    "userName": "Beatrice Vance",
+    "agent": "Check-In Agent",
+    "action": "CHECKIN_SUCCESS",
+    "status": "success",
+    "details": "Received check-in from Beatrice Vance: \"I feel very sad and lonely today...\". Streak updated to 13.",
+    "escalationTriggered": false
+  },
+  {
+    "id": "l_1782816120419_z3bh8",
+    "timestamp": "2026-06-30T10:42:00.419Z",
+    "userId": "system",
+    "userName": "NLP_ENGINE",
+    "agent": "Sentiment & Distress Agent",
+    "action": "SENTIMENT_ANALYSIS",
+    "status": "success",
+    "details": "Sentiment Agent analyzed check-in. Score: 0.50. Distress matched: [sad, lonely]. Positive matched: [].",
+    "escalationTriggered": false
+  },
+  {
+    "id": "l_1782816120411_ch9g9",
+    "timestamp": "2026-06-30T10:42:00.412Z",
+    "userId": "u3",
+    "userName": "System",
+    "agent": "Care Coordinator Agent",
+    "action": "COORDINATION_START",
+    "status": "success",
+    "details": "Initiating multi-agent check-in workflow for user: u3. Mock score: None",
+    "escalationTriggered": false
+  },
+  {
+    "id": "l_init",
+    "timestamp": "2026-06-29T10:41:24.937Z",
+    "userId": "u1",
+    "userName": "Evelyn Carter",
+    "agent": "Care Coordinator Agent",
+    "action": "SYSTEM_INITIALIZATION",
+    "status": "success",
+    "details": "Porchlight system initialized. Volunteer and family networks configured for user.",
+    "escalationTriggered": false
+  }
+]

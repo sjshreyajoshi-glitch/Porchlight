@@ -1,0 +1,118 @@
+{
+  "u1": {
+    "userId": "u1",
+    "userName": "Evelyn Carter",
+    "riskThresholds": {
+      "yellow": 0.4,
+      "red": 0.7
+    },
+    "contacts": {
+      "volunteer": {
+        "name": "Dave Miller (Volunteer Coordinator)",
+        "phone": "+15550199",
+        "email": "dave.volunteer@example.com",
+        "channel": "email"
+      },
+      "family1": {
+        "name": "Sarah Carter (Daughter)",
+        "phone": "+15550188",
+        "email": "sarah.carter@example.com",
+        "channel": "sms"
+      },
+      "family2": null,
+      "emergency": {
+        "name": "County EMS Dispatch",
+        "phone": "911",
+        "email": "dispatch@county-ems.org",
+        "channel": "call"
+      }
+    },
+    "routing": {
+      "yellow": [
+        "volunteer"
+      ],
+      "red": [
+        "family1"
+      ]
+    }
+  },
+  "u2": {
+    "userId": "u2",
+    "userName": "Arthur Pendelton",
+    "riskThresholds": {
+      "yellow": 0.35,
+      "red": 0.6
+    },
+    "contacts": {
+      "volunteer": {
+        "name": "Dave Miller (Volunteer Coordinator)",
+        "phone": "+15550199",
+        "email": "dave.volunteer@example.com",
+        "channel": "email"
+      },
+      "family1": {
+        "name": "Robert Pendelton (Son)",
+        "phone": "+15550277",
+        "email": "robert.p@example.com",
+        "channel": "email"
+      },
+      "family2": {
+        "name": "Martha Pendelton (Sister)",
+        "phone": "+15550288",
+        "email": "martha.p@example.com",
+        "channel": "sms"
+      },
+      "emergency": {
+        "name": "County EMS Dispatch",
+        "phone": "911",
+        "email": "dispatch@county-ems.org",
+        "channel": "call"
+      }
+    },
+    "routing": {
+      "yellow": [
+        "volunteer",
+        "family1"
+      ],
+      "red": [
+        "volunteer",
+        "family1",
+        "family2",
+        "emergency"
+      ]
+    }
+  },
+  "u3": {
+    "userId": "u3",
+    "userName": "Beatrice Vance",
+    "riskThresholds": {
+      "yellow": 0.3,
+      "red": 0.65
+    },
+    "contacts": {
+      "volunteer": {
+        "name": "Dave Miller (Volunteer Coordinator)",
+        "phone": "+15550199",
+        "email": "dave.volunteer@example.com",
+        "channel": "sms"
+      },
+      "family1": null,
+      "family2": null,
+      "emergency": {
+        "name": "County EMS Dispatch",
+        "phone": "911",
+        "email": "dispatch@county-ems.org",
+        "channel": "call"
+      }
+    },
+    "routing": {
+      "yellow": [
+        "volunteer"
+      ],
+      "red": [
+        "volunteer",
+        "emergency"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "porchlight-ai-system",
+  "version": "1.0.0",
+  "description": "Porchlight: Caregiver Multi-Agent System & MCP Server",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "frontend": "cd frontend && npm run dev",
+    "mcp": "node backend/mcp-server.js",
+    "install-all": "npm install && cd frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
